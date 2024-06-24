@@ -10,7 +10,7 @@ const WeatherDisplay = ({ weather }) => {
     return (
         <div>
             <h1>Weather Information</h1>
-            <p style={tempStyle}>Temperature: {temperature}°C</p>
+            <p style={tempStyle}>Temperature: {temperature}°</p>
             <p>Conditions: {conditions}</p>
         </div>
     );
