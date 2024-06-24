@@ -7,11 +7,13 @@ const WeatherDisplay = ({ weather }) => {
         color: temperature > 20 ? 'red' : 'blue',
     };
 
-    return (
+    return ( 
         <div>
             <h1>Weather Information</h1>
-            <p style={tempStyle} data-testid="temperature"> Temperature: {temperature}' </p>
-            <p data-testid="conditions"> Conditions: {conditions}</p>
+            <p>
+                <span style={tempStyle}>Temperatur : {temperature}' </span>
+                <span>Condition : {conditions}</span>
+            </p>
         </div>
     );
 };
