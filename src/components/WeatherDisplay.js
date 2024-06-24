@@ -8,7 +8,7 @@ const WeatherDisplay = ({ weather }) => {
     };
 
     return (
-        <>
+        <div>
             <p>
                 <span data-testid="temperature" style={tempStyle}>
                     Temperature: {temperature}
@@ -19,7 +19,7 @@ const WeatherDisplay = ({ weather }) => {
                     Conditions: {conditions}
                 </span>
             </p>
-        </>
+        </div>
     );
 };
 
