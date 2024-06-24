@@ -11,8 +11,12 @@ const WeatherDisplay = ({ weather }) => {
         <div>
             <h1>Weather Information</h1>
             <p>
-            <span data-testid="temperature" style={tempStyle}>Temperature: {temperature}°C</span>git
-            <span data-testid="conditions">Conditions: {conditions}</span>
+            <span data-testid="temperature" style={tempStyle}>
+          Temperature: {temperature}'
+        </span>
+        <span data-testid="conditions">
+          Conditions: {conditions}
+        </span>
             </p>
         </div>
     );
